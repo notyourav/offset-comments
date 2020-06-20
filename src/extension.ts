@@ -26,7 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
 			if (startOfLines.length == 0) return;
 
 			startOfLines.forEach(element => {
-				editBuilder.insert(element, "/*0x" + offset.toString().padStart(startOfLines.length.toString().length, "0") + "*/ " );
+				editBuilder.insert(element, "/*0x" + offset.toString(16).padStart(startOfLines.length.toString(16).length, "0") + "*/ " );
 				offset++;
 			});	
 		}
