@@ -1,6 +1,6 @@
 # Offset Comments
 
-This extension comments the offset of each newline in your selection.
+This VS Code extension comments the offset of each newline in your selection.
 
 ## Usage
 
