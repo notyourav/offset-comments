@@ -2,7 +2,7 @@
 	"name": "offset-comments",
 	"displayName": "Offset Comments",
 	"description": "Comments the offset of each newline in your selection.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "theohyto",
 	"repository": "https://github.com/notyouraveragehooman/offset-comments",
 	"engines": {
