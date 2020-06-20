@@ -23,7 +23,7 @@ function activate(context) {
             if (startOfLines.length == 0)
                 return;
             startOfLines.forEach(element => {
-                editBuilder.insert(element, "/*0x" + offset.toString().padStart(startOfLines.length.toString().length, "0") + "*/");
+                editBuilder.insert(element, "/*0x" + offset.toString().padStart(startOfLines.length.toString().length, "0") + "*/ ");
                 offset++;
             });
         }
